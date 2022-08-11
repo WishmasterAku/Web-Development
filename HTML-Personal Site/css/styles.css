@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+div {
+  background-color: #3D0000;
+}
+h1 {
+  color: white;
+  margin: 0;
+}
+h3 {
+  color: white;
+}
+
+.top-container
+{
+  height: 200px;
+  width: 200px;
+}
+.middle-container
+{
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+}
+.bottom-container
+{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}
+
+.Self {
+  text-decoration:underline;
+}
