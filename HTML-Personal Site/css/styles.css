@@ -1,35 +1,53 @@
 body {
   margin: 0;
+  text-align: center;
+  font-family: verdana, sans-serif;
 }
 div {
-  background-color: #3D0000;
+
 }
 h1 {
-  color: white;
-  margin: 0;
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-size: 90px;
+  font-family: Rosarivo, sans-serif;
+}
+h2 {
+  color: #66BFBF;
+  font-family: DynaPuff, sans-serif;
 }
 h3 {
-  color: white;
+  color: #11999E;
 }
+a {
+  color: #11999E;
+}
+.top-container {
+  background-color: lightblue;
+  position: relative;
+  padding-top: 20px;
 
-.top-container
-{
-  height: 200px;
-  width: 200px;
 }
 .middle-container
 {
-  height: 200px;
-  width: 200px;
-  background-color: blue;
-}
+
+  }
 .bottom-container
 {
-  height: 200px;
-  width: 200px;
-  background-color: red;
-}
 
+}
 .Self {
   text-decoration:underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  right: 450px;
+  top: 50px;
+
+}
+.top-cloud {
+  position: absolute;
+  left: 450px;
+  bottom: 300px;
 }
