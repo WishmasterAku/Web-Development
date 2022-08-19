@@ -35,7 +35,7 @@ hr {
 }
 /*###################### Class ######################*/
 .top-container {
-  background-color: lightblue;
+
   position: relative;
   padding-top: 20px;
 
@@ -93,4 +93,9 @@ hr {
 }
 .footer-link {
   padding: 25px;
+}
+/*###################### Identity ######################*/
+
+#title {
+background-color: lightblue;
 }
