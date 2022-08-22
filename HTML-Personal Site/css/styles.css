@@ -1,116 +1,47 @@
-/*###################### HTML ######################*/
-body {
-  margin: 0;
-  text-align: center;
-  font-family: Montserrat-Black, sans-serif;
+/* Identities */
+#title {
+  background-color: #00aca2;
 }
-p {
-  line-height: 2;
-}
-h1 {
-  margin: 50px auto 0 auto;
-  font-size: 3rem;
-  line-height: 1.5;
-  font-family: Montserrat-Black, sans-serif;
+  #skills {
+    background-color: #00aca2;
+    color: #fff;
+  }
+  #nft-collection {
+    padding: 8% 15%;
+  }
 
-}
-h2 {
-  font-family: DynaPuff, sans-serif;
-  font-weight: normal;
-  font-size: 30px;
-}
-
-hr {
-  border-top: dotted 10px grey;
-  width: 10%;
-  margin: 100px auto;
-
-}
-/*###################### Class ######################*/
-.top-container {
-  position: relative;
-  padding-top: 20px;
+/* Classes */
+.profile-image {
+  border-radius: 100%;
 }
 .container-fluid {
   padding: 3% 15%;
 }
-
-.Self {
-  text-decoration:underline;
-}
-
-.bottom-cloud {
-  position: absolute;
-  right: 450px;
-  top: 50px;
+.navbar {
 
 }
-.top-cloud {
-  position: absolute;
-  left: 450px;
-  bottom: 300px;
-}
-.skill-row {
-  width: 50%;
-  margin: 100px auto;
-  text-align: left;
-  line-height: 2;
-}
-.code-img {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-  border-radius: 100%;
-}
-.chillies-img {
-  width: 25%;
-  float: right;
-  margin-left: 30px;
-}
-.btn-contact {
-  padding: 10px;
-  background-color: #66BFBF;
-  color: white;
-  border: none;
-  border-radius: 8% ;
-}
-.middle-container {
-  margin: 100px 0;
-}
-.bottom-container {
-  background-color: #66BFBF;
-  margin: 100px 0;
-  padding: 50px;
-}
-.surname {
-  color: #EAF6F6;
-}
-.footer-link {
-  padding: 25px;
-}
-/*###################### Identity ######################*/
-
-#title {
-background-color: lightblue;
-color: red;
-}
-
-/* Navigation Bar */
-
 .navbar-brand {
   font-family: "Ubuntu";
   font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
 }
-.navbar {
-  padding-bottom: 50px;
+.navbar-nav > a {
+  margin-left:20px;
+  margin-right:20px;
+  font-size: 1.5rem;
+  color: #fff;
 }
-
-
-/* Features */
-#features {
-  padding: 5% 15%;
+.table {
+  color: #fff;
 }
-.feature-box {
+.carousel-inner > .item > img {
+    width: 100%;
+}
+/* HTML */
+body {
   text-align: center;
-  padding: 8%;
+}
+h1 {
+  color: #fff;
 }
