@@ -8,6 +8,11 @@
   }
   #nft-collection {
     padding: 8% 15%;
+    align-content: center;
+  }
+  #contact {
+    background-color: #00aca2;
+    
   }
 
 /* Classes */
@@ -16,9 +21,6 @@
 }
 .container-fluid {
   padding: 3% 15%;
-}
-.navbar {
-
 }
 .navbar-brand {
   font-family: "Ubuntu";
@@ -35,8 +37,11 @@
 .table {
   color: #fff;
 }
-.carousel-inner > .item > img {
-    width: 100%;
+.nft-title {
+  color: black;
+}
+.card-col {
+  padding: 3% 3%;
 }
 /* HTML */
 body {
