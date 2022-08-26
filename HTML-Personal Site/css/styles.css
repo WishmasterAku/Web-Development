@@ -1,6 +1,7 @@
 /* Identities */
 #title {
   background-color: #00aca2;
+  text-align: left;
 }
   #skills {
     background-color: #00aca2;
@@ -12,7 +13,7 @@
   }
   #contact {
     background-color: #00aca2;
-    
+
   }
 
 /* Classes */
@@ -49,4 +50,14 @@ body {
 }
 h1 {
   color: #fff;
+}
+
+@media (max-width: 1028px){
+  .profile-image {
+    position: static;
+    /* transform: rotate(90deg); */
+  }
+  #title {
+    text-align: center;
+  }
 }
